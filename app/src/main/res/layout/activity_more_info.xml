@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".More_Info"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="15dp"
+    android:id="@+id/more_cv_ll">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:id="@+id/rl_1"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="100dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_buttons"
+        android:layout_height="100dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/education"
+        android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:id="@+id/rl_2"
+        android:layout_marginStart="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_buttons"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/rl_1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/skills" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_3"
+        android:layout_weight="1"
+        android:layout_marginStart="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_buttons"
+        android:layout_toRightOf="@id/rl_2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/work_exp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_4"
+        android:layout_weight="1"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_buttons"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/rl_3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/contact"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/cv_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

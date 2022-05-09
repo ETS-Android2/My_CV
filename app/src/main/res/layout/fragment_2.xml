@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment_2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+    <TextView
+        android:id="@+id/text_1_frame_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/alata"
+        android:textStyle="bold"
+        android:text="@string/fragment_1_text_2"
+        android:textColor="@color/Deloitte"
+        android:textSize="32sp" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+        <RelativeLayout
+            android:id="@+id/rl2_frame_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:background="@drawable/frame_design">
+
+        <TextView
+            android:id="@+id/education_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/android_development"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/line_anim_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/education_1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:paddingBottom="10dp"
+                app:lottie_rawRes="@raw/line" />
+
+            <TextView
+                android:id="@+id/education_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line_anim_1"
+                android:fontFamily="@font/open_sans"
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:paddingRight="10dp"
+                android:text="@string/java"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/line_anim_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@id/education_2"
+                app:lottie_rawRes="@raw/line"/>
+
+            <TextView
+                android:id="@+id/education_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="8dp"
+                android:layout_below="@id/line_anim_2"
+                android:text="@string/c_c"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/line_anim_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:paddingBottom="10dp"
+                android:layout_below="@id/education_3"
+                app:lottie_rawRes="@raw/line"/>
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="10dp"
+        android:layout_below="@id/rl2_frame_1">
+
+        <TextView
+            android:id="@+id/interests"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alata"
+            android:text="@string/interests"
+            android:textColor="@color/Deloitte"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/interest_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/interests"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/frame_design">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/anime"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/interest_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/interests"
+            android:layout_toEndOf="@id/interest_1"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/frame_design">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cars"
+                android:textColor="@color/white"
+                android:fontFamily="@font/open_sans"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/interest_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/interests"
+            android:layout_toEndOf="@id/interest_2"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/frame_design">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/music"
+                android:textColor="@color/white"
+                android:fontFamily="@font/open_sans"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/interest_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/interests"
+            android:layout_toEndOf="@id/interest_3"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/frame_design">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tech_writing"
+                android:textColor="@color/white"
+                android:fontFamily="@font/open_sans"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/interest_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/interest_1"
+            android:layout_alignStart="@id/interest_1"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/frame_design">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/electronic_gadgets"
+                android:textColor="@color/white"
+                android:fontFamily="@font/open_sans"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+        </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
